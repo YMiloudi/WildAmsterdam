@@ -4,35 +4,109 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
     <script src="https://unpkg.com/@popperjs/core@2"></script>
-
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Features</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Pricing</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#">Disabled</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
+
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-info">
+      <a class="navbar-brand" href="#">Wild Amsterdam</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="container-text">
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="textwhite nav-item nav-link active" href="#">Accueil <span class="sr-only">(current)</span></a>
+                <a class="textwhite nav-item nav-link" href="#">Nos Tours</a>
+                <a class="textwhite nav-item nav-link" href="#">Nos Guides</a>
+                <a class="textwhite nav-item nav-link" href="#">Contactez-nous</a>
+              </div>
+            </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Section "Contactez-nous" -->
+
+  <section id="contactForm">
+    <h1 class="center">Contactez-Nous</h1>
+    <p class="center">Envoyez-nous un message en remplissant le formulaire suivant :</p>
+    <form>
+      <div class="form-group">
+        <label for="exampleFormControlInput1">Nom</label>
+        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="John Doe">
+      </div>
+      <div class="form-group">
+        <label for="exampleFormControlInput1">Email address</label>
+        <input type="email" class="form-control" id="exampleFormControlInput2" placeholder="name@example.com">
+      </div>
+    
+      <div class="form-group">
+        <label for="exampleFormControlTextarea1">Votre message</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
+      <button type="submit" class="btn btn-info">Envoyer</button>
+    </form>    
+  </section>
+
+
+
+
+  <!-- Section "Notre Equipe" -->
+
+<section id="ourTeam">
+  <h2 class="center">Présentation de l'équipe</h2>
+  <p class="center">Ceci est un texte de présentation de l'équipe qui à développé ce super site!</p>
+
+  <!-- Carte Yousra" -->
+  <div id="teamCards">
+
+    <div class="card" style="width: 18rem;">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-info">Go somewhere</a>
+      </div>
+    </div>
+
+  <!-- Carte Tom" -->
+    <div class="card" style="width: 18rem;">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-info">Go somewhere</a>
+      </div>
+    </div>
+
+  <!-- Carte Mylene" -->
+    <div class="card" style="width: 18rem;">
+      <img id="imageMylene" src="images/Mylene_00041.jpg" class="card-img-top" alt="photo Mylene">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-info">Go somewhere</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <!-- Section "Google Map" -->
+
+  <h2 class="center">Nous trouver</h2>
+  <p class="center">Voici une carte pour nous trouver facilement</p>
+  
+<section id="googleMaps">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d155959.15243004152!2d4.763877144882994!3d52.354792535969224!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c609ef96d35a5f%3A0xc22828aef97cc51a!2sVan%20Gogh%20Museum!5e0!3m2!1sen!2sfr!4v1603905332348!5m2!1sen!2sfr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+</section>
+
+
 </body>
 </html>
