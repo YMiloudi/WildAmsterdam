@@ -1,3 +1,55 @@
-.bg-light{
-    color: aqua;
+body{
+    
+}
+
+header{
+    margin-bottom: 50px;
+    background-color: #e52147;
+}
+
+#contactForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h1{
+    font-size: 2em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#teamCards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#ourTeam{
+    margin: 50px;
+}
+
+#googleMaps{
+    display: flex;
+    justify-content: center;
+}
+
+.center{
+    text-align: center;
+}
+
+.btn-info{
+    background-color: blueviolet;
+}
+
+.bg-info{
+    background-color: blueviolet;
+}
+
+#imageMylene{
+    height: 300px;
+
+}
+#navigation{
+    background-color: bisque;
 }
