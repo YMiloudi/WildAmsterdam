@@ -1,5 +1,9 @@
+body{
+}
+
 header{
     margin-bottom: 50px;
+    background-color: #E52147;
 }
 
 #contactForm{
@@ -12,6 +16,7 @@ header{
 h1{
     font-size: 2em;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:  #181717;
 }
 
 #teamCards{
@@ -34,12 +39,10 @@ h1{
 }
 
 .btn-info{
-    background-color: blueviolet;
+    background-color: #E52147;
+    border: none;
 }
 
-.bg-info{
-    background-color: blueviolet;
-}
 
 #imageMylene{
     height: 300px;
