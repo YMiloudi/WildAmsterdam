@@ -3,15 +3,246 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Nos tours</title>
     <script src="https://unpkg.com/@popperjs/core@2"></script>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-</head>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+<header>
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <a class="navbar-brand text-white" href="#">Wild Amsterdam</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="container-text">
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class=" nav-item nav-link active text-white" href="#">Accueil <span class="sr-only">(current)</span></a>
+              <a class=" nav-item nav-link text-white" href="#">Nos Tours</a>
+              <a class=" nav-item nav-link text-white" href="#">Nos Guides</a>
+              <a class=" nav-item nav-link text-white" href="#">Contactez-nous</a>
+            </div>
+          </div>
+    </div>
+  </nav>
+</header>
+
 <body>
-    <button class="btn btn-primary">Ok</button>
+
+  <h1>Découvrez nos tours !</h1>
+  
+  <div class="containerCards">
+
+    <div class="Cards1">
+      <div class="card" style="width: 18rem;">
+        <img src="images/velo.jpg" class="card-img-top" alt="Vélos">
+        <div class="card-body">
+          <h5 class="card-title">Visitez Amsterdam à vélo</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-info">Lire plus</a>
+       </div>
+    </div>
+
+
+    <div class="card" style="width: 18rem;">
+      <img src="images/Bateau.jpg" class="card-img-top" alt="Bateau">
+        <div class="card-body">
+          <h5 class="card-title">Sous le pont d'Amsterdam, en bateau!</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-info">Lire plus</a>
+        </div>
+    </div>
+    
+    <div class="card" style="width: 18rem;">
+        <img src="images/balade.jpg" class="card-img-top" alt="Femme qui se balade">
+        <div class="card-body">
+          <h5 class="card-title">Flanez dans les rues d'Amsterdam</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-info">Lire plus</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="Cards2">
+  
+      <div class="card" style="width: 18rem;">
+        <img src="images/Musée.jpg" class="card-img-top" alt="Rijksmuseum">
+        <div class="card-body">
+          <h5 class="card-title">Le tour des musées</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-info">Lire plus</a>
+        </div>
+      </div>
+      
+      <div class="card" style="width: 18rem;">
+        <img src="images/Culinaire.jpg" class="card-img-top" alt="Femme qui mange">
+        <div class="card-body">
+          <h5 class="card-title">Un Food Tour</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-info">Lire plus</a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem;">
+        <img src="images/Amsterdam-night.jpg" class="card-img-top" alt="Amsterdam la nuit">
+        <div class="card-body">
+          <h5 class="card-title">Amsterdam by night</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-info">Lire plus</a>
+        </div>
+      </div>
+     </div>
+    </div>
+
+  <h1>Réservez votre tour !</h1>
+
+  <div class="containerPrice">
+
+    <table class="table table-hover">
+      <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Tours</th>
+          <th scope="col">Prix</th>
+          <th scope="col">Sélectionnez une date</th>
+          <th scope="col">Adresse e-mail</th>
+          <th scope="col">Nombre de personnes</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+        <th scope="row">1</th>
+        <td>Visitez Amsterdam à vélo</td>
+        <td>€30</td>
+        <td label for="start"></label>
+          <input type="date" id="start" name="trip-start"
+                 value="2020-01-01"
+                 min="2020-01-01" max="2021-12-31"></td>
+        <td label for="exampleFormControlInput1"></label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com"></td>
+        <td label for="exampleFormControlSelect1"></label>
+          <select class="form-control" id="exampleFormControlSelect1">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+          </select></td>
+        <td class="btn btn-info">Réservation</td>
+        </tr>
+
+      <tr>
+        <th scope="row">2</th>
+        <td>Sous le pont d'Amsterdam, en bateau!</td>
+        <td>€25</td>
+        <td label for="start"></label>
+          <input type="date" id="start" name="trip-start"
+                 value="2020-01-01"
+                 min="2020-01-01" max="2021-12-31"></td>
+        <td label for="exampleFormControlInput1"></label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com"></td>
+        <td label for="exampleFormControlSelect1"></label>
+          <select class="form-control" id="exampleFormControlSelect1">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+          </select></td>
+        <td class="btn btn-info">Réservation</td>
+      </tr>
+
+      <tr>
+        <th scope="row">3</th>
+        <td>Flanez dans les rues d'Amsterdam</td>
+        <td>€15</td>
+        <td label for="start"></label>
+          <input type="date" id="start" name="trip-start"
+                 value="2020-01-01"
+                 min="2020-01-01" max="2021-12-31"></td>
+        <td label for="exampleFormControlInput1"></label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com"></td>
+        <td label for="exampleFormControlSelect1"></label>
+          <select class="form-control" id="exampleFormControlSelect1">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+          </select></td>
+        <td class="btn btn-info">Réservation</td>
+      </tr>
+
+      <tr>
+        <th scope="row">4</th>
+        <td>Le tour des musées</td>
+        <td>€40</td>
+        <td label for="start"></label>
+          <input type="date" id="start" name="trip-start"
+                 value="2020-01-01"
+                 min="2020-01-01" max="2021-12-31"></td>
+        <td label for="exampleFormControlInput1"></label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com"></td>
+        <td label for="exampleFormControlSelect1"></label>
+          <select class="form-control" id="exampleFormControlSelect1">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+          </select></td>
+        <td class="btn btn-info">Réservation</td>
+      </tr>
+
+      <tr>
+        <th scope="row">5</th>
+        <td>Un Food Tour à Amsterdam</td>
+        <td>€55</td>
+        <td label for="start"></label>
+          <input type="date" id="start" name="trip-start"
+                 value="2020-01-01"
+                 min="2020-01-01" max="2021-12-31"></td>
+        <td label for="exampleFormControlInput1"></label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com"></td>
+        <td label for="exampleFormControlSelect1"></label>
+          <select class="form-control" id="exampleFormControlSelect1">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+          </select></td>
+        <td class="btn btn-info">Réservation</td>
+      </tr>
+
+      <tr>
+        <th scope="row">6</th>
+        <td>Amsterdam by night</td>
+        <td>€45</td>
+        <td label for="start"></label>
+          <input type="date" id="start" name="trip-start"
+                 value="2020-01-01"
+                 min="2020-01-01" max="2021-12-31"></td>
+         <td label for="exampleFormControlInput1"></label>
+         <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com"></td>
+         <td label for="exampleFormControlSelect1"></label>
+          <select class="form-control" id="exampleFormControlSelect1">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+          </select></td>
+        <td class="btn btn-info">Réservation</td>
+      </tr>
+
+    </tbody>
+  </table>
+</div>
 </body>
 </html>
