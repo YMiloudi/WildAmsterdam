@@ -9,19 +9,25 @@
 
 header{
     margin-bottom: 50px;
-    background-color: #E52147;
+    background-color: #e52147;
+
 }
 
 
-/* BODY */
+/* GENERAL */
 
-/* contact form */
+.center{
+    text-align: center;
+}
 
-#contactForm{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
+.btn-info{
+    background-color: #E52147;
+    border: none;
+}
+
+.btn{
+    background-color: #E52147;
+    border: none;
 }
 
 /* style text */
@@ -42,6 +48,69 @@ h5{
     color: white;
 }
 
+
+
+/* INDEX */
+
+.incontournable{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    border: 50px;
+    border-radius: 100px;
+}
+
+.image-tour{
+    height: 275px;
+    width: auto;
+}
+.carousel-inner{
+    height: 400px;
+    width: auto;
+}
+
+#titlenostours{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px;
+    border-width: 20px;
+    border-radius: 30px;
+}
+
+#carouselExemple {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 120px;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: auto;
+}
+
+
+/* NOS TOURS */
+
+
+
+/* NOS GUIDES */
+
+
+
+
+/* CONTACT PAGE */
+
+/* contact form */
+
+#contactForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
 /* Team presentation */
 
 #teamCards{
@@ -54,7 +123,6 @@ h5{
     margin: 50px;
 }
 
-
 /* Google Map */
 
 #googleMaps{
@@ -62,20 +130,6 @@ h5{
     justify-content: center;
     margin-bottom: 100px;
 }
-
-
-
-/* General */
-
-.center{
-    text-align: center;
-}
-
-.btn-info{
-    background-color: #E52147;
-    border: none;
-}
-
 
 
 
