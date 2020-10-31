@@ -17,6 +17,7 @@ h1{
     font-size: 2em;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color:  #181717;
+    text-align: center;
 }
 
 #teamCards{
@@ -46,4 +47,39 @@ h1{
 
 #imageMylene{
     height: 300px;
+}
+
+.containerCards{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 16px;
+}
+
+.Cards1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.Cards2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.card-img-top{
+    height: 200px;
+    width: auto;
+    border-style: groove;
+}
+
+.containerPrice{
+    background-color: #FAF7FF;
+    margin: 50px;
+    border-style: groove;
 }
