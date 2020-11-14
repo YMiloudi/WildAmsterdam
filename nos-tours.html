@@ -12,6 +12,9 @@
   </head>
 
 <header>
+
+  <!--Barre de navigation-->
+
   <nav class="navbar navbar-expand-lg navbar-light">
     <a class=" logo navbar-brand text-white" href="index.html">Wild Amsterdam</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -25,77 +28,256 @@
               <a class=" nav-item nav-link text-white" href="nos-guides.html">Nos Guides</a>
               <a class=" nav-item nav-link text-white" href="contact.html">Contactez-nous</a>
             </div>
-          </div>
-    </div>
-  </nav>
+      </div>
+    </nav>
 </header>
 
 <body>
-
+ <!--Titre Nos Tours-->
   <h1>Découvrez nos tours !</h1>
   
+  <!--Container Nos Tours-->
   <div class="containerCards">
 
-    <div class="Cards1">
-      <div class="card" style="width: 18rem;">
+  <!--Première ligne des cards-->
+     <div class="Cards1">
+
+      <!--Card 1-->
+      <div class="card" style="width: 20rem;">
         <img src="images/velo.jpg" class="card-img-top" alt="Vélos">
         <div class="card-body">
           <h5 class="card-title">Visitez Amsterdam à vélo</h5>
           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-info">Lire plus</a>
+          <!-- Button trigger modal -->
+              <button type="button" class="btnCards" data-toggle="modal" data-target="#exampleModalLong">
+                     Lire plus 
+              </button>
+
+          <!-- Modal -->
+            <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLongTitle">Visitez Amsterdam à vélo</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque magni architecto laborum itaque, expedita sed mollitia deleniti inventore a ipsa eos sunt enim ab obcaecati repudiandae veniam nihil, fugit vitae?
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, quisquam, libero obcaecati, possimus numquam quae molestias suscipit aspernatur laborum necessitatibus nostrum in eveniet ipsum ipsa perspiciatis voluptates temporibus magnam excepturi.
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae error a totam quam animi veritatis molestiae, iure voluptas, voluptate vitae consequuntur? Dignissimos recusandae magni nulla culpa reiciendis consequuntur ducimus cumque!
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat, neque obcaecati veniam vitae labore, aspernatur, nostrum dolore doloribus eveniet sint saepe beatae fuga eos sed unde. Assumenda numquam quis eos.
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btnReservationndary" data-dismiss="modal">Fermer</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
        </div>
     </div>
 
+  <!--Card 2-->
 
-    <div class="card" style="width: 18rem;">
+    <div class="card" style="width: 20rem;">
       <img src="images/Bateau.jpg" class="card-img-top" alt="Bateau">
         <div class="card-body">
           <h5 class="card-title">Sous le pont d'Amsterdam, en bateau!</h5>
           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-info">Lire plus</a>
+          
+           <!-- Button trigger modal -->
+           <button type="button" class="btnCards" data-toggle="modal" data-target="#exampleModalLong2">
+            Lire plus 
+           </button>
+
+              <!-- Modal -->
+                <div class="modal fade" id="exampleModalLong2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle2" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title2" id="exampleModalLongTitle2">Sous le pont d'Amsterdam, en bateau!</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque magni architecto laborum itaque, expedita sed mollitia deleniti inventore a ipsa eos sunt enim ab obcaecati repudiandae veniam nihil, fugit vitae?
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, quisquam, libero obcaecati, possimus numquam quae molestias suscipit aspernatur laborum necessitatibus nostrum in eveniet ipsum ipsa perspiciatis voluptates temporibus magnam excepturi.
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae error a totam quam animi veritatis molestiae, iure voluptas, voluptate vitae consequuntur? Dignissimos recusandae magni nulla culpa reiciendis consequuntur ducimus cumque!
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat, neque obcaecati veniam vitae labore, aspernatur, nostrum dolore doloribus eveniet sint saepe beatae fuga eos sed unde. Assumenda numquam quis eos.
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btnReservationndary" data-dismiss="modal">Fermer</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
         </div>
     </div>
-    
-    <div class="card" style="width: 18rem;">
+
+  <!--Card 3-->    
+
+    <div class="card" style="width:20rem;"> 
         <img src="images/balade.jpg" class="card-img-top" alt="Femme qui se balade">
         <div class="card-body">
           <h5 class="card-title">Flanez dans les rues d'Amsterdam</h5>
           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-info">Lire plus</a>
+           <!-- Button trigger modal -->
+           <button type="button" class="btnCards" data-toggle="modal" data-target="#exampleModalLong3">
+            Lire plus 
+           </button>
+
+              <!-- Modal -->
+                <div class="modal fade" id="exampleModalLong3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle3" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title3" id="exampleModalLongTitle3">Flanez dans les rues d'Amsterdam</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque magni architecto laborum itaque, expedita sed mollitia deleniti inventore a ipsa eos sunt enim ab obcaecati repudiandae veniam nihil, fugit vitae?
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, quisquam, libero obcaecati, possimus numquam quae molestias suscipit aspernatur laborum necessitatibus nostrum in eveniet ipsum ipsa perspiciatis voluptates temporibus magnam excepturi.
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae error a totam quam animi veritatis molestiae, iure voluptas, voluptate vitae consequuntur? Dignissimos recusandae magni nulla culpa reiciendis consequuntur ducimus cumque!
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat, neque obcaecati veniam vitae labore, aspernatur, nostrum dolore doloribus eveniet sint saepe beatae fuga eos sed unde. Assumenda numquam quis eos.
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btnReservationndary" data-dismiss="modal">Fermer</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
         </div>
       </div>
     </div>
 
+<!--Deuxième ligne de Cards-->
+
     <div class="Cards2">
   
-      <div class="card" style="width: 18rem;">
+      <!--Card 4-->
+
+      <div class="card" style="width:20rem;">
         <img src="images/Musée.jpg" class="card-img-top" alt="Rijksmuseum">
         <div class="card-body">
           <h5 class="card-title">Le tour des musées</h5>
           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-info">Lire plus</a>
+
+           <!-- Button trigger modal -->
+           <button type="button" class="btnCards" data-toggle="modal" data-target="#exampleModalLong4">
+            Lire plus 
+           </button>
+
+              <!-- Modal -->
+                <div class="modal fade" id="exampleModalLong4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle4" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title4" id="exampleModalLongTitle4">Le tour des musées</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque magni architecto laborum itaque, expedita sed mollitia deleniti inventore a ipsa eos sunt enim ab obcaecati repudiandae veniam nihil, fugit vitae?
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, quisquam, libero obcaecati, possimus numquam quae molestias suscipit aspernatur laborum necessitatibus nostrum in eveniet ipsum ipsa perspiciatis voluptates temporibus magnam excepturi.
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae error a totam quam animi veritatis molestiae, iure voluptas, voluptate vitae consequuntur? Dignissimos recusandae magni nulla culpa reiciendis consequuntur ducimus cumque!
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat, neque obcaecati veniam vitae labore, aspernatur, nostrum dolore doloribus eveniet sint saepe beatae fuga eos sed unde. Assumenda numquam quis eos.
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btnReservationndary" data-dismiss="modal">Fermer</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
         </div>
       </div>
+
+  <!--Card 5-->
       
-      <div class="card" style="width: 18rem;">
+      <div class="card" style="width:20rem;"> 
         <img src="images/Culinaire.jpg" class="card-img-top" alt="Femme qui mange">
         <div class="card-body">
           <h5 class="card-title">Un Food Tour</h5>
           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-info">Lire plus</a>
+           <!-- Button trigger modal -->
+           <button type="button" class="btnCards" data-toggle="modal" data-target="#exampleModalLong5">
+            Lire plus 
+           </button>
+
+              <!-- Modal -->
+                <div class="modal fade" id="exampleModalLong5" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle5" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title5" id="exampleModalLongTitle5">Un Food Tour</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque magni architecto laborum itaque, expedita sed mollitia deleniti inventore a ipsa eos sunt enim ab obcaecati repudiandae veniam nihil, fugit vitae?
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, quisquam, libero obcaecati, possimus numquam quae molestias suscipit aspernatur laborum necessitatibus nostrum in eveniet ipsum ipsa perspiciatis voluptates temporibus magnam excepturi.
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae error a totam quam animi veritatis molestiae, iure voluptas, voluptate vitae consequuntur? Dignissimos recusandae magni nulla culpa reiciendis consequuntur ducimus cumque!
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat, neque obcaecati veniam vitae labore, aspernatur, nostrum dolore doloribus eveniet sint saepe beatae fuga eos sed unde. Assumenda numquam quis eos.
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btnReservationndary" data-dismiss="modal">Fermer</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
         </div>
       </div>
 
-      <div class="card" style="width: 18rem;">
+<!--Card 6-->
+
+      <div class="card" style="width:20rem;"> 
         <img src="images/Amsterdam-night.jpg" class="card-img-top" alt="Amsterdam la nuit">
         <div class="card-body">
           <h5 class="card-title">Amsterdam by night</h5>
           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-info">Lire plus</a>
+           <!-- Button trigger modal -->
+           <button type="button" class="btnCards" data-toggle="modal" data-target="#exampleModalLong6">
+            Lire plus 
+           </button>
+
+              <!-- Modal -->
+                <div class="modal fade" id="exampleModalLong6" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle6" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title6" id="exampleModalLongTitle6">Amsterdam by night</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque magni architecto laborum itaque, expedita sed mollitia deleniti inventore a ipsa eos sunt enim ab obcaecati repudiandae veniam nihil, fugit vitae?
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, quisquam, libero obcaecati, possimus numquam quae molestias suscipit aspernatur laborum necessitatibus nostrum in eveniet ipsum ipsa perspiciatis voluptates temporibus magnam excepturi.
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae error a totam quam animi veritatis molestiae, iure voluptas, voluptate vitae consequuntur? Dignissimos recusandae magni nulla culpa reiciendis consequuntur ducimus cumque!
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat, neque obcaecati veniam vitae labore, aspernatur, nostrum dolore doloribus eveniet sint saepe beatae fuga eos sed unde. Assumenda numquam quis eos.
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btnReservationndary" data-dismiss="modal">Fermer</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
         </div>
       </div>
      </div>
     </div>
+
+<!--Formulaire de réservation-->
 
   <h1>Réservez votre tour !</h1>
 
@@ -112,6 +294,8 @@
           <th scope="col">Nombre de personnes</th>
         </tr>
       </thead>
+      
+<!--Réservation tour à vélo-->
 
       <tbody>
         <tr>
@@ -132,8 +316,23 @@
             <option>4</option>
             <option>5</option>
           </select></td>
-        <td class="btn btn-info">Réservation</td>
-        </tr>
+
+        <td class="btn btnReservation">
+
+          <button type="button" class="btn btnReservation" data-toggle="modal" data-target=".bd-example-modal-lg">Réservation</button>
+
+            <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                  Merci, nous avons bien enregistré votre réservation ! 
+                </br> Vous recevrez un émail de confirmation dans votre boite mail contenant votre numéro de commande. 
+                </div>
+              </div>
+            </div>
+        </td>
+      </tr>
+       
+  <!--Réservation tour en bateau-->
 
       <tr>
         <th scope="row">2</th>
@@ -153,8 +352,22 @@
             <option>4</option>
             <option>5</option>
           </select></td>
-        <td class="btn btn-info">Réservation</td>
-      </tr>
+          <td class="btn btnReservation">
+
+            <button type="button" class="btn btnReservation" data-toggle="modal" data-target=".bd-example-modal-lg">Réservation</button>
+  
+              <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                    Merci, nous avons bien enregistré votre réservation ! 
+                  </br> Vous recevrez un émail de confirmation dans votre boite mail contenant votre numéro de commande. 
+                  </div>
+                </div>
+              </div>
+          </td>      
+        </tr>
+
+<!--Réservation tour à pied-->
 
       <tr>
         <th scope="row">3</th>
@@ -173,9 +386,25 @@
             <option>3</option>
             <option>4</option>
             <option>5</option>
-          </select></td>
-        <td class="btn btn-info">Réservation</td>
-      </tr>
+          </select>
+        </td>
+
+          <td class="btn btnReservation">
+
+            <button type="button" class="btn btnReservation" data-toggle="modal" data-target=".bd-example-modal-lg">Réservation</button>
+  
+              <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                    Merci, nous avons bien enregistré votre réservation ! 
+                  </br> Vous recevrez un émail de confirmation dans votre boite mail contenant votre numéro de commande. 
+                  </div>
+                </div>
+              </div>
+          </td>      
+        </tr>
+
+<!--Réservation tour des musées-->
 
       <tr>
         <th scope="row">4</th>
@@ -194,9 +423,25 @@
             <option>3</option>
             <option>4</option>
             <option>5</option>
-          </select></td>
-        <td class="btn btn-info">Réservation</td>
-      </tr>
+          </select>
+        </td>
+
+          <td class="btn btnReservation">
+
+            <button type="button" class="btn btnReservation" data-toggle="modal" data-target=".bd-example-modal-lg">Réservation</button>
+  
+              <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                    Merci, nous avons bien enregistré votre réservation ! 
+                  </br> Vous recevrez un émail de confirmation dans votre boite mail contenant votre numéro de commande. 
+                  </div>
+                </div>
+              </div>
+          </td>      
+        </tr>
+
+<!--Réservation Food Tour-->
 
       <tr>
         <th scope="row">5</th>
@@ -215,9 +460,26 @@
             <option>3</option>
             <option>4</option>
             <option>5</option>
-          </select></td>
-        <td class="btn btn-info">Réservation</td>
-      </tr>
+          </select>
+        </td>
+
+          <td class="btn btnReservation">
+
+            <button type="button" class="btn btnReservation" data-toggle="modal" data-target=".bd-example-modal-lg">Réservation</button>
+  
+              <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                    Merci, nous avons bien enregistré votre réservation ! 
+                  </br> Vous recevrez un émail de confirmation dans votre boite mail contenant votre numéro de commande. 
+                  </div>
+                </div>
+              </div>
+
+          </td>   
+        </tr>
+
+<!--Réservation Amsterdam By Night-->
 
       <tr>
         <th scope="row">6</th>
@@ -236,13 +498,63 @@
             <option>3</option>
             <option>4</option>
             <option>5</option>
-          </select></td>
-        <td class="btn btn-info">Réservation</td>
-      </tr>
+          </select>
+        </td>
+
+          <td class="btn btnReservation">
+
+            <button type="button" class="btn btnReservation" data-toggle="modal" data-target=".bd-example-modal-lg">Réservation</button>
+  
+              <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                    Merci, nous avons bien enregistré votre réservation ! 
+                  </br> Vous recevrez un émail de confirmation dans votre boite mail contenant votre numéro de commande. 
+                  </div>
+                </div>
+              </div>
+          </td>     
+         </tr>
 
     </tbody>
   </table>
 </div>
+
+<!--Footer-->
+
+<footer>
+
+  <div id="menuAndSocial">
+    <div id="footerMenu">
+      <div>
+        <a href="#"><p class="whiteParagraph">Nos Tours</p></a>
+      </div>
+      <div>
+        <a href="#"><p class="whiteParagraph">Nos Guides</p></a>
+      </div>
+      <div>
+        <a href="#"><p class="whiteParagraph">Contactez-nous</p></a>
+      </div>
+    </div>
+
+    <div>
+      <h2 id="logo">WildAmsterdam</h2>
+    </div>
+
+    <div id="footerSocial">
+      <a href="https://www.instagram.com"><img class="socialMediaIcon" src="images/instagram.png" alt="Instagram icon"></a>
+      <a href="https://www.facebook.com"><img class="socialMediaIcon" src="images/facebook.png" alt="Facebook icon"></a>
+    </div>
+  </div>
+
+<div id="copyright">
+  <div class="center">
+    <p>© WildAmsterdam 2020. Tous droits réservés.</p>
+  </div>
+</div>
+
+</footer>
+
 </body>
 
 <footer>
