@@ -137,6 +137,36 @@ h5{
     border-style: groove;
 }
 
+.btnCards{
+    background-color: #E52147;
+    border-radius: 5px;
+    color: white;
+    font-size : large;
+}
+
+.btnCards:hover{
+    box-shadow: 5px 5px 10px darkgrey;
+    opacity: 20px;
+}
+
+.btnReservation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5px;
+    padding-top: 5px;
+    background-color: #E52147;
+    border-radius: 40px;
+    color: white;
+    font-size : medium;
+}
+
+.btnReservationndary{
+    background-color: #E52147;
+    border-radius: 5px;
+    color: white;
+    font-size : medium;
+}
 
 
 /* NOS GUIDES */
