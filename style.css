@@ -13,7 +13,7 @@ nav{
 }
 
 header{
-    margin-bottom: 50px;
+    margin-bottom: 0px;
     background-color: #e52147;
 }
 
@@ -57,26 +57,24 @@ h5{
 
 /* INDEX */
 
-.incontournable{
+
+
+#ourTours{
     display: flex;
-    flex-direction: row;
     justify-content: space-around;
-    border: 50px;
-    border-radius: 100px;
 }
-.card{
-    display: flex;
-    align-items: stretch;
+
+#toursCards{
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
 }
 
 .image-tour{
     height: 275px;
     width: auto;
 }
-.carousel-inner{
-    height: 400px;
-    width: auto;
-}
+
 
 #titlenostours{
     display: flex;
@@ -84,19 +82,22 @@ h5{
     justify-content: space-around;
     padding: 30px;
     border-width: 20px;
-    border-radius: 30px;
+    
 }
 
+
 #carouselExemple {
-    width: 50%;
+    width: 100%;
     margin: 0 auto;
-    margin-top: 120px;
+    margin-top: 0px;
 }
 
 .carousel-item img {
     width: 100%;
-    height: auto;
+    height: 550px;
+    
 }
+
 
 
 /* NOS TOURS */
@@ -198,4 +199,14 @@ footer{
     display: flex;
     flex-direction: column;
     color: white;
+
 }
+
+.display{
+    display: flex;
+}
+
+#logo{
+    color: white;
+}
+
