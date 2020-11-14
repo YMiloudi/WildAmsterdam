@@ -14,17 +14,17 @@
 
   <header>
     <nav class="navbar navbar-expand-lg navbar-light">
-      <a class="navbar-brand text-white" href="#">Wild Amsterdam</a>
+      <a class=" logo navbar-brand text-white" href="#">Wild Amsterdam</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="container-text">
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
               <div class="navbar-nav">
-                <a class=" nav-item nav-link active text-white" href="#">Accueil <span class="sr-only">(current)</span></a>
-                <a class=" nav-item nav-link text-white" href="#">Nos Tours</a>
-                <a class=" nav-item nav-link text-white" href="#">Nos Guides</a>
-                <a class=" nav-item nav-link text-white" href="#">Contactez-nous</a>
+                <a class=" nav-item nav-link active text-white" href="index.html">Accueil <span class="sr-only">(current)</span></a>
+                <a class=" nav-item nav-link text-white" href="nos-tours.html">Nos Tours</a>
+                <a class=" nav-item nav-link text-white" href="nos-guides.html">Nos Guides</a>
+                <a class=" nav-item nav-link text-white" href="contact.html">Contactez-nous</a>
               </div>
             </div>
       </div>
@@ -37,20 +37,20 @@
     <h1 class="center">Contactez-Nous</h1>
     <p class="center">Envoyez-nous un message en remplissant le formulaire suivant :</p>
     <form>
-      <div class="form-group">
-        <label for="exampleFormControlInput1">Nom</label>
-        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="John Doe">
+      <div class="form-group center">
+        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Nom">
       </div>
-      <div class="form-group">
-        <label for="exampleFormControlInput1">Email address</label>
-        <input type="email" class="form-control" id="exampleFormControlInput2" placeholder="name@example.com">
+      <div class="form-group center">
+        <input type="email" class="form-control" id="exampleFormControlInput2" placeholder="Email">
       </div>
     
-      <div class="form-group">
-        <label for="exampleFormControlTextarea1">Votre message</label>
-        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      <div class="form-group center">
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Votre message"></textarea>
       </div>
-      <button type="submit" class="btn btn-info">Envoyer</button>
+
+      <div class="col-md-12 text-center">
+        <button type="submit" class="btn btn-info">Envoyer</button>
+      </div>
     </form>    
   </section>
 
@@ -61,7 +61,7 @@
 
 <section id="ourTeam">
   <h2 class="center">Présentation de l'équipe</h2>
-  <p class="center">Ceci est un texte de présentation de l'équipe qui à développé ce super site!</p>
+  <p class="center">Ceci est un texte de présentation de l'équipe qui a développé ce super site!</p>
 
   <!-- Carte Yousra" -->
   <div id="teamCards">
@@ -69,9 +69,9 @@
     <div class="card" style="width: 18rem;">
       <img src="..." class="card-img-top" alt="...">
       <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        <a href="#" class="btn btn-info">Go somewhere</a>
+        <h5 class="card-title">Yousra Miloudi</h5>
+        <p class="card-text">Developpeur Web Front End en Belgique.</p>
+        <a href="https://www.linkedin.com/in/yousra-miloudi-8875b216b/" class="btn btn-info">Profil Linkedin</a>
       </div>
     </div>
 
@@ -79,9 +79,9 @@
     <div class="card" style="width: 18rem;">
       <img src="..." class="card-img-top" alt="...">
       <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        <a href="#" class="btn btn-info">Go somewhere</a>
+        <h5 class="card-title">Tom Serrell</h5>
+        <p class="card-text">Developpeur Web Front End à Bordeaux.</p>
+        <a href="#" class="btn btn-info">Profil Linkedin</a>
       </div>
     </div>
 
@@ -89,9 +89,9 @@
     <div class="card" style="width: 18rem;">
       <img id="imageMylene" src="images/Mylene_00041.jpg" class="card-img-top" alt="photo Mylene">
       <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        <a href="#" class="btn btn-info">Go somewhere</a>
+        <h5 class="card-title">Mylène Carrara</h5>
+        <p class="card-text">Developpeur Web Front End à Arcachon.</p>
+        <a href="https://www.linkedin.com/in/mylenecarrara" class="btn btn-info">Profil Linkedin</a>
       </div>
     </div>
   </div>
@@ -109,4 +109,39 @@
 
 
 </body>
+
+
+<footer>
+
+  <div id="menuAndSocial">
+    <div id="footerMenu">
+      <div>
+        <a href="#"><p class="whiteParagraph">Nos Tours</p></a>
+      </div>
+      <div>
+        <a href="#"><p class="whiteParagraph">Nos Guides</p></a>
+      </div>
+      <div>
+        <a href="#"><p class="whiteParagraph">Contactez-nous</p></a>
+      </div>
+    </div>
+
+    <div>
+      <h2 id="logo">WildAmsterdam</h2>
+    </div>
+
+    <div id="footerSocial">
+      <a href="https://www.instagram.com"><img class="socialMediaIcon" src="images/instagram.png" alt="Instagram icon"></a>
+      <a href="https://www.facebook.com"><img class="socialMediaIcon" src="images/facebook.png" alt="Facebook icon"></a>
+    </div>
+  </div>
+
+<div id="copyright">
+  <div class="center">
+    <p>© WildAmsterdam 2020. Tous droits réservés.</p>
+  </div>
+</div>
+
+</footer>
+
 </html>

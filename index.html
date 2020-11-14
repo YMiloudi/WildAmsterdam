@@ -13,25 +13,26 @@
 
 </head>
 <body>
+  <!--barre de navigation-->
   <header>
   <nav class="navbar navbar-expand-lg navbar-light">
-    <a class="navbar-brand text-white" href="#">Wild Amsterdam</a>
+    <a class=" logo text-white" href="#">Wild Amsterdam</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="container-text">
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-              <a class=" nav-item nav-link active text-white" href="#">Accueil <span class="sr-only">(current)</span></a>
-              <a class=" nav-item nav-link text-white" href="#">Nos Tours</a>
-              <a class=" nav-item nav-link text-white" href="#">Nos Guides</a>
-              <a class=" nav-item nav-link text-white" href="#">Contactez-nous</a>
+              <a class=" nav-item nav-link active text-white" href="index.html">Accueil <span class="sr-only">(current)</span></a>
+              <a class=" nav-item nav-link text-white" href="nos-tours.html">Nos Tours</a>
+              <a class=" nav-item nav-link text-white" href="nos-guides.html">Nos Guides</a>
+              <a class=" nav-item nav-link text-white" href="contact.html">Contactez-nous</a>
             </div>
           </div>
     </div>
   </nav>
 </header>
-
+<!--ici le carousel-->
     <div id="carouselExemple" class="carousel slide" data-ride="carousel" data-interval="4000">
 
       <ol class="carousel-indicators">
@@ -71,11 +72,17 @@
 
   </div>
 
+
+<!--ici les cards de nos tours incontournables-->
+
       <div id="titlenostours">
+
           <h1>Nos Tours Incontournables</h1>
+
       </div>
 
       <div class="incontournable">
+
         <div class="card" style="width: 18rem;">
           <img src="images/vangogh.pdf" class="image-tour" alt="musée van Gogh">
           <div class="card-body">
@@ -104,6 +111,41 @@
                 <a href="#" class="btn btn-info">Réserver Maintenant</a>
               </div>
       </div>
+
+      <footer>
+
+        <div id="menuAndSocial">
+          <div id="footerMenu">
+            <div>
+              <a href="#"><p class="whiteParagraph">Nos Tours</p></a>
+            </div>
+            <div>
+              <a href="#"><p class="whiteParagraph">Nos Guides</p></a>
+            </div>
+            <div>
+              <a href="#"><p class="whiteParagraph">Contactez-nous</p></a>
+            </div>
+          </div>
+      
+          <div>
+            <h2 id="logo">WildAmsterdam</h2>
+          </div>
+      
+          <div id="footerSocial">
+            <a href="https://www.instagram.com"><img class="socialMediaIcon" src="images/instagram.png" alt="Instagram icon"></a>
+            <a href="https://www.facebook.com"><img class="socialMediaIcon" src="images/facebook.png" alt="Facebook icon"></a>
+          </div>
+        </div>
+      
+      <div id="copyright">
+        <div class="center">
+          <p>© WildAmsterdam 2020. Tous droits réservés.</p>
+        </div>
+      </div>
+      
+      </footer>
+
+<!--ici le JavaScript-->
 
       <script>
         $('.carousel').carousel({

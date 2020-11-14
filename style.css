@@ -1,39 +1,24 @@
 
+/* HEADER */
+nav{ 
+    display: flex;
+    align-items: center;
+    
+
+}
+.logo{
+    font-size: 2em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+}
 
 header{
     margin-bottom: 50px;
     background-color: #e52147;
-
 }
 
-#contactForm{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-}
 
-h1{
-    font-size: 2em;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color:  #181717;
-    text-align: center;
-}
-
-#teamCards{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
-
-#ourTeam{
-    margin: 50px;
-}
-
-#googleMaps{
-    display: flex;
-    justify-content: center;
-}
+/* GENERAL */
 
 .center{
     text-align: center;
@@ -44,10 +29,77 @@ h1{
     border: none;
 }
 
-
-#imageMylene{
-    height: 300px;
+.btn{
+    background-color: #E52147;
+    border: none;
 }
+
+/* style text */
+
+h1, h2{
+    font-size: 2em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:  #181717;
+    text-align: center;
+}
+
+h5{
+    font-size: 1em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:  #181717;
+}
+
+.whiteParagraph{
+    color: white;
+}
+
+
+
+/* INDEX */
+
+.incontournable{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border: 50px;
+    border-radius: 100px;
+}
+.card{
+    display: flex;
+    align-items: stretch;
+}
+
+.image-tour{
+    height: 275px;
+    width: auto;
+}
+.carousel-inner{
+    height: 400px;
+    width: auto;
+}
+
+#titlenostours{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px;
+    border-width: 20px;
+    border-radius: 30px;
+}
+
+#carouselExemple {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 120px;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: auto;
+}
+
+
+/* NOS TOURS */
 
 .containerCards{
     display: flex;
@@ -84,48 +136,66 @@ h1{
     border-style: groove;
 }
 
-#navigation{
-    background-color: bisque;
+
+
+/* NOS GUIDES */
+
+
+
+
+/* CONTACT PAGE */
+
+/* contact form */
+
+#contactForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
 }
 
-.incontournable{
+/* Team presentation */
+
+#teamCards{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    align-items: flex-start;
-    border: 50px;
-    border-radius: 100px;
 }
 
-.image-tour{
-    height: 275px;
-    width: auto;
+#ourTeam{
+    margin: 50px;
 }
-.carousel-inner{
-    height: 400px;
-    width: auto;
-}
-.btn{
-    background-color: #E52147;
-    border: none;
-}
-#titlenostours{
+
+/* Google Map */
+
+#googleMaps{
     display: flex;
-    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+
+
+/* FOOTER */
+
+footer{
+    background-color: #E52147;
+    height: 200px;
+    color: white;  
+}
+
+.socialMediaIcon{
+    height: 40px;
+} 
+
+#menuAndSocial{
+    display: flex;
     justify-content: space-around;
-    padding: 30px;
-    border-width: 20px;
-    border-radius: 30px;
-   
-
-}
-#carouselExemple {
-    width: 50%;
-    margin: 0 auto;
-    margin-top: 120px;
+    padding-top: 40px;
 }
 
-.carousel-item img {
-    width: 100%;
-    height: auto;
+#footerMenu{
+    display: flex;
+    flex-direction: column;
+    color: white;
 }
