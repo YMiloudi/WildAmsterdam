@@ -27,6 +27,10 @@ header{
     text-align: center;
 }
 
+.para{
+    font-size: 2em;
+}
+
 .btn-info{
     background-color: #E52147;
     border: none;
@@ -127,10 +131,9 @@ h5{
 }
 
 .toursCards{
-    
-
     display: flex;
     justify-content: space-around;
+    margin-bottom: 50px;
 }
 
 #toursCards{
@@ -152,6 +155,7 @@ h5{
     padding: 30px;
     border-width: 20px;
 }
+
 
 
 
@@ -278,6 +282,8 @@ h5{
 #ourTeam{
     margin-bottom: 80px;
     margin-top: 80px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 /* Google Map */
