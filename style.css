@@ -38,6 +38,7 @@ header{
     background-color: #88142b;
 }
 
+
 /* style text */
 
 h1, h2{
@@ -65,8 +66,6 @@ h5{
 
 /* INDEX */
 
-
-
 #ourTours{
     display: flex;
     justify-content: space-around;
@@ -83,16 +82,13 @@ h5{
     width: auto;
 }
 
-
 #titlenostours{
     display: flex;
     align-items: center;
     justify-content: space-around;
     padding: 30px;
     border-width: 20px;
-    
 }
-
 
 #carouselExemple {
     width: 100%;
@@ -186,7 +182,6 @@ h5{
     align-items: center;
     padding-top: 50px;
     padding-bottom: 50px;
-
 }
 
 
@@ -211,10 +206,9 @@ h5{
 
 /* Team presentation */
 
-#teamCards{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+.card-img-top{
+    width:100%;
+    height:auto;
 }
 
 .card-body-team{
@@ -230,7 +224,8 @@ h5{
 }
 
 #ourTeam{
-    margin: 50px;
+    margin-bottom: 80px;
+    margin-top: 80px;
 }
 
 /* Google Map */
