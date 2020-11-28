@@ -1,5 +1,8 @@
 
 /* HEADER */
+body{
+    background-color: whitesmoke;
+}
 nav{ 
     display: flex;
     align-items: center;
@@ -40,15 +43,15 @@ header{
 /* style text */
 
 h1, h2{
-    font-size: 2em;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 3em;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color:  #181717;
     text-align: center;
 }
 
-h1{
-    margin-top: 50px;
-}
+
 
 h5{
     font-size: 1.3em;
@@ -64,16 +67,67 @@ h5{
 
 /* INDEX */
 
-
-
-#ourTours{
-    display: flex;
-    justify-content: space-around;
+#slider{
+    overflow: hidden;
+}
+#slider figure{
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0%;
+    animation: 20s slider infinite;
+}
+#slider figure img{
+    width: 20%;
+    float: left;
 }
 
-#toursCards{
+@keyframes slider{
+    0%{
+        left: 0;
+    }
+    20%{
+        left: 0;
+    }
+    25%{
+        left: -100%;
+    }
+    45%{
+        left: -100%;
+    }
+    50%{
+        left: -200%;
+    }
+    70%{
+        left: -200%;
+    }
+    75%{
+        left: -300%;
+    }
+    95%{
+        left: -300%;
+    }
+    100%{
+        left: -400%;
+    }
+}
+
+
+@media screen and (max-width : 700px){
+    .toursCards{
+        display:flex;
+        justify-content:space-around;
+        flex-direction: column;
+        align-items: center;
+    }
+   
+
+}
+
+.toursCards{
+    
     display:flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     margin-bottom: 50px;
 }
 
@@ -83,7 +137,7 @@ h5{
 }
 
 
-#titlenostours{
+.titlenostours{
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -92,20 +146,14 @@ h5{
     
 }
 
-
-#carouselExemple {
-    width: 100%;
-    margin: 0 auto;
-    margin-top: 0px;
-}
-
-.carousel-item img {
-    width: 100%;
-    height: 550px;
+.whatWeDo{
     
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 1.5em;
 }
-
-
 
 /* NOS TOURS */
 
